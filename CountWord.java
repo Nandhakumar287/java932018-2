@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+
+  public class CountWord{
+      public static void main(String args[]){
+        Scanner sc=new Scanner(system.in);
+        System.out.println("Enter your String");
+        String input=sc.nextLine();
+        int count=0;
+          for(int i=0;i<input.length()-1;i++)
+          {
+            if(input.charAt(i)==' ')
+            {
+              count++;
+            }
+            
+          } 
+          System.out.println("Space Count="+count)
+       }
+     }
